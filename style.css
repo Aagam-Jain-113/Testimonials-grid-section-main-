@@ -8,7 +8,7 @@
 
 body{
     background: #ecf2f8 ;
-    font-family: 'Barlow Semi COndensed', sans-serif;
+    font-family: 'Barlow Semi COndensed';
     font-size: 13px;
 }
 
@@ -16,6 +16,10 @@ body{
     font-size: 11px; 
     text-align: center;
     margin-bottom: 2%;
+}
+
+p {
+    line-height: 20px;
 }
 
 a { 
@@ -33,7 +37,6 @@ a {
 .box{
     border-radius: 6px;
     padding: 3%;
-    margin-top: 5%;
     box-shadow: 5px 5px 0px #a3a3a3de;
     height: 100%;
 }
@@ -98,7 +101,6 @@ a {
 
 .quote{
     padding-top: 5%;
-    height: 100%;
 }
 
 .light{
@@ -111,7 +113,6 @@ a {
 
 .line{
     font-size: 20px;
-    z-index: 10;
 }
 
 .verified{
@@ -132,19 +133,13 @@ a {
     .container{
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        margin-top: 25%;
+        min-height: 100vh;
         padding: 5%;
-    }
-    .attribution{
-        margin-top: 25%;
     }
     .background{
         left: 40%;
        }
     .box{
-        grid-auto-flow: column;
-        height: 100%;
         padding: 5%;
     }
 }
@@ -156,13 +151,13 @@ a {
         grid-template-areas: "t1 t1 t2 t5"
                              "t3 t4 t4 t5";
     }
-    .container{
-        margin-top: 5%;
-    }
-    .attribution{
-        margin-top: 5%;
-    }
     .background{
         left: 35%;
    }
+}
+
+@media screen and (max-width: 719px){
+    .box{
+        margin-top: 5%;
+    }
 }
