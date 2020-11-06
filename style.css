@@ -1,4 +1,4 @@
-@import "https://fonts.google.com/specimen/Barlow+Semi+Condensed";
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@
 
 body{
     background: #ecf2f8 ;
-    font-family: 'Barlow Semi COndensed';
+    font-family: 'Barlow';
     font-size: 13px;
 }
 
@@ -16,10 +16,6 @@ body{
     font-size: 11px; 
     text-align: center;
     margin-bottom: 2%;
-}
-
-p {
-    line-height: 20px;
 }
 
 a { 
@@ -37,7 +33,7 @@ a {
 .box{
     border-radius: 6px;
     padding: 3%;
-    box-shadow: 5px 5px 0px #a3a3a3de;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
     height: 100%;
     margin-top: 5%;
 }
@@ -48,48 +44,41 @@ a {
     height: 35px;
 }
 
-.background{
-    position: absolute;
-    right: 10%;
-    z-index: -1;
-}
-
-#box1{
+.box1{
     color: #fff;
-    background-color: #7541c8;
+    background: url('./images/bg-pattern-quotation.svg') no-repeat top 3% right 21% #7541c8;
     grid-area: t1;
-    z-index: 1;
 }
 
-#box2{
+.box2{
     background: #48556a;
     color: #fff;
     grid-area: t2;
 }
 
-#box3,#box5{
+.box3,.box5{
     background: #fff;
     color: #48556a;
 }
 
-#box4{
+.box4{
     background: #19212e;
     color: #fff;
     grid-area: t4;
 }
 
-#box3{
+.box3{
     grid-area: t3;
 }
 
-#box5{
+.box5{
     grid-area: t5;
 }
 
 .intro{
     display: inline-block;
     padding-left: .2rem;
-    margin-bottom: .5rem;
+    line-height: 1.25rem;
 }
 
 .line, .name{
@@ -102,6 +91,7 @@ a {
 
 .quote{
     padding-top: 5%;
+    line-height: 1.5rem;
 }
 
 .light{
@@ -114,6 +104,7 @@ a {
 
 .line{
     font-size: 20px;
+    line-height: 1.5rem;
 }
 
 .verified{
