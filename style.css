@@ -141,6 +141,7 @@ a {
        }
     .box{
         padding: 5%;
+        margin-top: 0;
     }
 }
 
@@ -154,10 +155,4 @@ a {
     .background{
         left: 35%;
    }
-}
-
-@media screen and (max-width: 719px){
-    .box{
-        margin-top: 5%;
-    }
 }
