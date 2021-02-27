@@ -1,5 +1,7 @@
 # Frontend Mentor - Testimonials grid section
 
+Live preview: https://testimonials-grid-section-main.netlify.app/
+
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
